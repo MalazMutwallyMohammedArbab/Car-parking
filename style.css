@@ -15,17 +15,17 @@
 }
 .rayat{
     width: 60px; 
-    height: 52px;
+    height: 44px;
     margin-left: 5px;
 }
 .rct{
     width: 80px;
-    height: 72px;
+    height: 62px;
     margin-left: 5px;
 }
 .bb{
     width: 60px;
-    height: 52px;
+    height: 44px;
 }
 
 .parking{
@@ -46,7 +46,7 @@
     border-bottom: 1px solid var(--blueColor);
     width: fit-content;
     margin: auto;
-    padding-bottom: 2px;
+    padding-bottom: 1px;
     margin-bottom: 30px;
     letter-spacing: 1.6px;
 }
@@ -64,24 +64,16 @@
     color: white;
     margin-left: 16px;
     transition: 0.4s;
+    background-image: linear-gradient(to right, #13ac88, #2caccc, #209cc2);
+    border-radius: 4px;
 }
 
 .tabs li.active,
 .tabs li:hover{
     color: black;
+    background-image: linear-gradient(to right, #66b0c7, #62c5dd, #5dd4ba);
+    box-shadow: 1px 1px 3px 1px rgb(88, 86, 86);
     transform: scale(1.20);
-}
-
-
-.floarOne, .floarTwo, .floarThree{
-    background-image: linear-gradient(to right, #0c7c62, #2799b6, #146d88);
-} 
-
-.floarOne.active, .floarOne:hover, 
-.floarTwo.active, .floarTwo:hover, 
-.floarThree.active, .floarThree:hover{
-    background-image: linear-gradient(to right, #0c7c62, #2799b6, #146d88);
-    box-shadow: 1px 1px 3px 1px #0c7c62;
 }
 
 
@@ -129,8 +121,13 @@
 
 .flex-justify{
     display: flex;
+    align-items: center;
     margin-top: 30px;
     margin-right: 5px;
+    background-color: #e1e1e1;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 3px 1px rgb(88, 86, 86);
 }
 
 .green, .red, .blue, .yellow{
@@ -227,15 +224,16 @@
     border-radius: 4px;
     color: white;
     text-align: center;
-    font-size: 18px;
-    box-shadow: 1px 1px 10px 2px rgb(88, 86, 86);
+    font-size: 16px;
+    box-shadow: 1px 1px 3px 1px rgb(88, 86, 86);
 }
 .fullNumber{
     background-image: linear-gradient(to right, #0c7c62, #2799b6, #146d88);
 }
 .availableNumber{
     background-color: var(--greenColor);
-    box-shadow: 1px 1px 25px 3px rgb(32, 59, 43);
+    margin-right: 5px;
+    margin-left: 5px;
 }
 .specialNeeds{
     background-image: linear-gradient(to right, #2994F8, #FBD675);
