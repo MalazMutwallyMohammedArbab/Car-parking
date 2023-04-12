@@ -1,8 +1,8 @@
 :root{
     --greenColor: #3bb196;
-    --redColor: #ff274b;
+    --redColor: #f34646;
     --blueColor: #2994F8;
-    --orangeColor: #eb5424;
+    --yellowColor: #FBD675;
 }
 
 .container{
@@ -15,17 +15,17 @@
 }
 .rayat{
     width: 60px; 
-    height: 60px;
+    height: 52px;
     margin-left: 5px;
 }
 .rct{
     width: 80px;
-    height: 80px;
+    height: 72px;
     margin-left: 5px;
 }
 .bb{
     width: 60px;
-    height: 60px;
+    height: 52px;
 }
 
 .parking{
@@ -34,7 +34,7 @@
     padding: 10px 30px;
     text-align: center;
     width: fit-content;
-    margin: 15px auto 20px;
+    margin: 10px auto 10px;
     font-size: 20px;
     color: white;
 }
@@ -46,7 +46,7 @@
     border-bottom: 1px solid var(--blueColor);
     width: fit-content;
     margin: auto;
-    padding-bottom: 5px;
+    padding-bottom: 2px;
     margin-bottom: 30px;
     letter-spacing: 1.6px;
 }
@@ -72,35 +72,16 @@
     transform: scale(1.20);
 }
 
-.floarOne{
-    background-color: var(--greenColor);
-    box-shadow: 1px 1px 15px 2px #1c7a64 inset;
-}
-.floarTwo{
-    background-color: var(--blueColor);
-    box-shadow: 1px 1px 15px 2px #094e92 inset;
-}
-.floarThree{
-    background-color: var(--orangeColor);
-    box-shadow: 1px 1px 15px 2px #963517 inset;
+
+.floarOne, .floarTwo, .floarThree{
+    background-image: linear-gradient(to right, #0c7c62, #2799b6, #146d88);
 } 
 
-.floarOne.active,
-.floarOne:hover{
-    background-color: #49d8b7;
-    box-shadow: 1px 1px 10px 2px #2c9179 inset;
-}
-
-.floarTwo.active,
-.floarTwo:hover{
-    background-color: #5ba4e9;
-    box-shadow: 1px 1px 10px 2px #3a6996 inset;
-}
-
-.floarThree.active,
-.floarThree:hover{
-    background-color: #e7734f;
-    box-shadow: 1px 1px 10px 2px #ad563b inset;
+.floarOne.active, .floarOne:hover, 
+.floarTwo.active, .floarTwo:hover, 
+.floarThree.active, .floarThree:hover{
+    background-image: linear-gradient(to right, #0c7c62, #2799b6, #146d88);
+    box-shadow: 1px 1px 3px 1px #0c7c62;
 }
 
 
@@ -112,6 +93,11 @@
 }
 
 /* Parking Content */
+
+.floar{
+    font-size: 28px;
+    margin-bottom: 8px;
+}
 .flex{
     display: flex;
     justify-content: space-between;
@@ -167,7 +153,7 @@
     background-color: var(--blueColor);
 }
 .yellow{
-    background-color: var(--orangeColor);
+    background-color: var(--yellowColor);
 }
 
 
@@ -189,7 +175,7 @@
 }
 
 .first-two, .first-four{
-    background-color: var(--orangeColor);
+    background-color: var(--yellowColor);
 }
 
 
@@ -207,7 +193,7 @@
 .second-seven, .second-nine, .second-ten, .second-eleven, .second-twelve, .second-fifteen, 
 .second-sixteen, .second-ninteen, .second-twenty, .second-twenty-one, .second-twenty-two, .second-twenty-three, .second-twenty-four, 
 .second-twenty-five, .second-twenty-six, .second-twenty-seven, .second-twenty-eight, .second-twenty-nine, .second-thirty{
-    background-color: #f34646;
+    background-color: var(--redColor);
 }
 
 
@@ -218,7 +204,7 @@
 }
 
 .third-five, .third-six, .third-eight, .third-therteen, .third-fourteen, .third-seventeen, .third-eighteen, .third-twenty-two{
-    background-color: #FBD675;
+    background-color: var(--redColor);
 }
 
 .third-seven, .third-nine, .third-ten, .third-eleven, .third-twelve, .third-fifteen, .third-sixteen, .third-ninteen, 
@@ -248,8 +234,8 @@
     background-image: linear-gradient(to right, #0c7c62, #2799b6, #146d88);
 }
 .availableNumber{
-    background-color: var(--blueColor);
-    box-shadow: 1px 1px 25px 3px rgb(39, 38, 59);
+    background-color: var(--greenColor);
+    box-shadow: 1px 1px 25px 3px rgb(32, 59, 43);
 }
 .specialNeeds{
     background-image: linear-gradient(to right, #f34646, #FBD675);
