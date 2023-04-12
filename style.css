@@ -1,0 +1,256 @@
+:root{
+    --greenColor: #3bb196;
+    --redColor: #ff274b;
+    --blueColor: #2994F8;
+    --orangeColor: #eb5424;
+}
+
+.container{
+    width: 95%;
+    margin: 2rem auto;
+}
+
+.imgs-flex{
+    display: flex;
+}
+.rayat{
+    width: 60px; 
+    height: 60px;
+    margin-left: 5px;
+}
+.rct{
+    width: 80px;
+    height: 80px;
+    margin-left: 5px;
+}
+.bb{
+    width: 60px;
+    height: 60px;
+}
+
+.parking{
+    background-image: linear-gradient(to right, #0c7c62, #2799b6, #146d88);
+    border-radius: 10px;
+    padding: 10px 30px;
+    text-align: center;
+    width: fit-content;
+    margin: 15px auto 20px;
+    font-size: 20px;
+    color: white;
+}
+
+.summary{
+    color: var(--blueColor);
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 1px solid var(--blueColor);
+    width: fit-content;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+    letter-spacing: 1.6px;
+}
+
+.tabs{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.tabs li{
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+    margin-left: 16px;
+    transition: 0.4s;
+}
+
+.tabs li.active,
+.tabs li:hover{
+    color: black;
+    transform: scale(1.20);
+}
+
+.floarOne{
+    background-color: var(--greenColor);
+    box-shadow: 1px 1px 15px 2px #1c7a64 inset;
+}
+.floarTwo{
+    background-color: var(--blueColor);
+    box-shadow: 1px 1px 15px 2px #094e92 inset;
+}
+.floarThree{
+    background-color: var(--orangeColor);
+    box-shadow: 1px 1px 15px 2px #963517 inset;
+} 
+
+.floarOne.active,
+.floarOne:hover{
+    background-color: #49d8b7;
+    box-shadow: 1px 1px 10px 2px #2c9179 inset;
+}
+
+.floarTwo.active,
+.floarTwo:hover{
+    background-color: #5ba4e9;
+    box-shadow: 1px 1px 10px 2px #3a6996 inset;
+}
+
+.floarThree.active,
+.floarThree:hover{
+    background-color: #e7734f;
+    box-shadow: 1px 1px 10px 2px #ad563b inset;
+}
+
+
+.content > div{
+    padding: 20px 0;
+}
+.content > div:not(:first-child){
+    display: none;
+}
+
+/* Parking Content */
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.first{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven, .twelve, .therteen, .fourteen, .fifteen, 
+.sixteen, .seventeen, .eighteen, .ninteen, .twenty, .twenty-one, .twenty-two, .twenty-three, .twenty-four, 
+.twenty-five, .twenty-six, .twenty-seven, .twenty-eight, .twenty-nine, .thirty, .thirty-one, .thirty-two{
+    width: 60px;
+    height: 60px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #2fa588;
+    color: white;
+    border-radius: 4px;
+    box-shadow: 1px 1px 10px 2px rgb(88, 86, 86);
+}
+
+.second{
+    width: 30%;
+}
+
+.flex-justify{
+    display: flex;
+    margin-top: 30px;
+    margin-right: 5px;
+}
+
+.green, .red, .blue, .yellow{
+    width: 50px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 5px 1px rgb(88, 86, 86);
+}
+.green{
+    background-color: var(--greenColor);
+}
+.red{
+    background-color: var(--redColor);
+}
+.blue{
+    background-color: var(--blueColor);
+}
+.yellow{
+    background-color: var(--orangeColor);
+}
+
+
+/* First Floar Parking */
+
+.first-seven, .first-eight, .first-ten, .first-eleven, .first-twelve, .first-fourteen, .first-fifteen, 
+.first-seventeen, .first-ninteen, .first-twenty, .first-twenty-one, .first-twenty-three, .first-twenty-four, 
+.first-twenty-five, .first-twenty-six, .first-twenty-eight, .first-thirty, .first-thirty-one{
+    background-color: var(--greenColor);
+}
+
+.first-six, .first-nine, .first-therteen, .first-sixteen, .first-eighteen, .first-twenty-two, 
+.first-twenty-seven, .first-twenty-nine, .first-thirty-two{
+    background-color: var(--redColor);
+}
+
+.first-one, .first-three, .first-five{
+    background-color: var(--blueColor);
+}
+
+.first-two, .first-four{
+    background-color: var(--orangeColor);
+}
+
+
+/* Second Floar Parking */
+
+.second-one, .second-two, .second-three, .second-four{
+    background-color: var(--blueColor);
+}
+
+.second-five, .second-six, .second-eight, .second-therteen, .second-fourteen, .second-seventeen, .second-eighteen, 
+.second-twenty-two{
+    background-color: var(--greenColor);
+}
+
+.second-seven, .second-nine, .second-ten, .second-eleven, .second-twelve, .second-fifteen, 
+.second-sixteen, .second-ninteen, .second-twenty, .second-twenty-one, .second-twenty-two, .second-twenty-three, .second-twenty-four, 
+.second-twenty-five, .second-twenty-six, .second-twenty-seven, .second-twenty-eight, .second-twenty-nine, .second-thirty{
+    background-color: #f34646;
+}
+
+
+/* Third Floar Parking */
+
+.third-one, .third-two, .third-three, .third-four{
+    background-color: var(--blueColor);
+}
+
+.third-five, .third-six, .third-eight, .third-therteen, .third-fourteen, .third-seventeen, .third-eighteen, .third-twenty-two{
+    background-color: #FBD675;
+}
+
+.third-seven, .third-nine, .third-ten, .third-eleven, .third-twelve, .third-fifteen, .third-sixteen, .third-ninteen, 
+.third-twenty, .third-twenty-one, .third-twenty-two, .third-twenty-three, .third-twenty-four, .third-twenty-five, 
+.third-twenty-six, .third-twenty-seven, .third-twenty-eight, .third-twenty-nine, .third-thirty{
+    background-color: var(--greenColor);
+}
+
+
+
+/* Parking Number */
+.parkingNumber{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.fullNumber, .availableNumber, .specialNeeds{
+    padding: 5px 2px;
+    border-radius: 4px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    box-shadow: 1px 1px 10px 2px rgb(88, 86, 86);
+}
+.fullNumber{
+    background-image: linear-gradient(to right, #0c7c62, #2799b6, #146d88);
+}
+.availableNumber{
+    background-color: var(--blueColor);
+    box-shadow: 1px 1px 25px 3px rgb(39, 38, 59);
+}
+.specialNeeds{
+    background-image: linear-gradient(to right, #f34646, #FBD675);
+}
